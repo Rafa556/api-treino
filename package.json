@@ -1,0 +1,16 @@
+{
+  "name": "api-treino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/main.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "fastify": "^5.3.2"
+  }
+}
