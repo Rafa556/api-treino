@@ -1,9 +1,9 @@
 import fastify from "fastify";
 import { BankAccount } from "./account";
-import { AccountBank } from "./account-bank";
+import { AccountCreate } from "./account-bank";
 
 const bank = fastify();
-const accountBank = new AccountBank();
+const accountBank = new AccountCreate();
 
 bank.post("/accounts", async (request, reply) => {
   accountBank.calculatebalance();

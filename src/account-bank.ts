@@ -1,6 +1,6 @@
 import { BankAccount } from "./account";
 
-export class AccountBank {
+export class AccountCreate {
   private accounts: BankAccount[] = [];
   private nextAccount = 1;
   private accountformated(): string {
